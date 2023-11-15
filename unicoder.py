@@ -4,7 +4,6 @@ import random
 import argparse
 
 UNICODE_JSON_FILE = os.path.join(os.path.dirname(__file__), 'utf8.json')
-HISTORY_FILE = os.path.join(os.path.dirname(__file__), 'history.json')
 
 def random_number(max):
     return random.randint(0, max - 1)
