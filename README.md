@@ -46,6 +46,14 @@ python unicoder.py "<" --all
 # ≮
 ```
 
+Get all UTF-8 characters for a specific character, inline:
+
+```bash
+python unicoder.py "<" --all -i
+
+# ≮﹤＜
+```
+
 Get all UTF-8 characters for a specific character, including the URL-encoded representation:
 
 ```bash
@@ -57,6 +65,17 @@ python unicoder.py "<" --all -u
 # ＜
 # %EF%BC%9C
 ```
+
+Get all UTF-8 characters for a specific character, including the URL-encoded representation inline:
+
+```bash
+python unicoder.py "<" --all -u -i
+
+# ≮: %E2%89%AE
+# ﹤: %EF%B9%A4
+# ＜: %EF%BC%9C
+```
+
 
 <br>
 
